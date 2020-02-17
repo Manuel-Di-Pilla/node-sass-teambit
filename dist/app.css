@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  width: 100%;
+}
+
+.nav-container {
+  position: fixed;
+}
+
+.nav-bar {
+  width: 75%;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #BDB5AF;
+}
+
+.nav-bar .logo a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #654F3D;
+}
+
+.nav-bar .logo a i {
+  vertical-align: middle;
+}
+
+.nav-bar .logo a span {
+  margin-left: 10px;
+}
+
+.nav-bar .menu .fa-bars {
+  display: none;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-bar ul li {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.nav-bar ul li:first-child span {
+  margin-right: 5px;
+}
+
+.nav-bar ul li:last-child a {
+  color: #30488F;
+  background-color: white;
+  border: 1px solid #30488F;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.nav-bar ul li:last-child a:hover {
+  color: white;
+  background-color: #30488F;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: #654F3D;
+  transition: background-color 0.3s;
+}
+
+.nav-bar ul li a:hover {
+  color: #405698;
+}
+
+.nav-bar ul li a i {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 760px) {
+  .menu ul {
+    display: none;
+  }
+
+  .menu .fa-bars {
+    display: block;
+  }
+}
+
