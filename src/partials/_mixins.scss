@@ -1,7 +1,7 @@
 @mixin button {
-  width: 50px;
-  height: 30px;
+  padding: 10px;
   border-radius: 10px;
   background-color: #30488F;
   color: white;
+  text-decoration: none;
 }
