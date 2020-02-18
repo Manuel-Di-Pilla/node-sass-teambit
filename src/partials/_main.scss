@@ -1,19 +1,18 @@
 .top-main{
   width: 100%;
   background-color: $color-body-background;
-  .section-top{
-    width: 80%;
+  .section{
+    width: $width-distance;
     margin: 0 auto;
     padding: 100px 0;
     text-align: center;
     border-bottom: 1px solid #BDB5AF;
-    .h2-section-top{
-      width: 70%;
-      margin: 0 auto;
-      h2{
-        color: $color-link;
-        font-size: 30px;
-      }
+    h2{
+      color: $color-link;
+      font-size: 30px;
+    }
+    .last-h2{
+      padding-top: 70px;
     }
     .img-list{
       display: flex;
@@ -65,12 +64,9 @@
 }
 
 
-
-
-
 @media screen and (max-width: 800px){
   .top-main{
-    .section-top{
+    .section{
       .img-list{
         flex-direction: column;
         align-items: center;
