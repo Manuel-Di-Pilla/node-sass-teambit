@@ -5,3 +5,7 @@
   color: white;
   text-decoration: none;
 }
+@mixin img-box {
+  width: calc(100% / 3);
+  height: 200px;
+}

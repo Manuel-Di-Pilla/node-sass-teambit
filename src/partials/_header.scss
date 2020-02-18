@@ -161,3 +161,18 @@
     padding: 0 20px;
   }
 }
+@media screen and (max-width: 540px){
+  .header{
+    .right-side{
+      .sign-in{
+        a{
+          display: block;
+        }
+        span{
+          margin: 10px 0;
+          display: block;
+        }
+      }
+    }
+  }
+}

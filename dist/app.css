@@ -12,10 +12,6 @@ a {
   display: inline-block;
 }
 
-body {
-  min-width: 540px;
-}
-
 .nav-container {
   position: fixed;
   top: 0;
@@ -201,6 +197,121 @@ body {
   .nav-bar {
     width: 100%;
     padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .header .right-side .sign-in a {
+    display: block;
+  }
+
+  .header .right-side .sign-in span {
+    margin: 10px 0;
+    display: block;
+  }
+}
+
+.top-main {
+  width: 100%;
+  background-color: #FFE7D2;
+}
+
+.top-main .section-top {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0;
+  text-align: center;
+  border-bottom: 1px solid #BDB5AF;
+}
+
+.top-main .section-top .h2-section-top {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.top-main .section-top .h2-section-top h2 {
+  color: #654F3D;
+  font-size: 30px;
+}
+
+.top-main .section-top .img-list {
+  display: flex;
+  margin: 100px 0;
+}
+
+.top-main .section-top .img-list .first-img {
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+.top-main .section-top .img-list .first-img img {
+  height: 60%;
+  margin-bottom: 25px;
+}
+
+.top-main .section-top .img-list .first-img p {
+  color: #654F3D;
+  font-size: 21px;
+}
+
+.top-main .section-top .img-list .second-img {
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+.top-main .section-top .img-list .second-img img {
+  height: 60%;
+  margin-bottom: 25px;
+}
+
+.top-main .section-top .img-list .second-img p {
+  color: #654F3D;
+  font-size: 21px;
+}
+
+.top-main .section-top .img-list .third-img {
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+.top-main .section-top .img-list .third-img img {
+  height: 60%;
+  margin-bottom: 25px;
+}
+
+.top-main .section-top .img-list .third-img p {
+  color: #654F3D;
+  font-size: 21px;
+}
+
+.top-main .section-top .bottom-img {
+  height: 285px;
+  width: 275px;
+  margin: 0 auto;
+}
+
+.top-main .section-top .bottom-img img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .top-main .section-top .img-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-main .section-top .img-list .first-img {
+    width: 100%;
+  }
+
+  .top-main .section-top .img-list .second-img {
+    width: 100%;
+    margin: 70px 0;
+  }
+
+  .top-main .section-top .img-list .third-img {
+    width: 100%;
   }
 }
 
